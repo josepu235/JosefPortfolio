@@ -3,7 +3,7 @@ import post1Thumbnail from '../assets/blog/blog1/bet1.jpg';
 import post2Thumbnail from '../assets/blog/blog2/me1.jpg';
 import post3Thumbnail from '../assets/blog/blog3/tes1.jpg';
 import post4Thumbnail from '../assets/blog/blog4/pin6thumb.jpg';
-import post5Thumbnail from '../assets/blog/blog5/sig1.jpg';
+import post5Thumbnail from '../assets/blog/blog5/oj1.jpeg';
 import post6Thumbnail from '../assets/blog/blog6/cap2thumb.jpg';
 import post7Thumbnail from '../assets/blog/blog7/pin1.jpg';
 
@@ -25,6 +25,10 @@ import pin7 from '../assets/blog/blog4/pin7.jpg';
 import pin8 from '../assets/blog/blog4/pin8.jpg';
 
 import sig2 from '../assets/blog/blog5/sig2.jpg';
+import oj2 from '../assets/blog/blog5/oj2.jpeg';
+import oj3 from '../assets/blog/blog5/oj3.jpeg';
+import oj4 from '../assets/blog/blog5/oj4.jpeg';
+
 
 import cap1 from '../assets/blog/blog6/cap1.jpg';
 import cap3 from '../assets/blog/blog6/cap3.jpg';
@@ -75,18 +79,18 @@ export const blogPosts = [
     date: "March, 2025",
     excerpt: "Pinning is Winning",
     thumbnail: post4Thumbnail,
-    images: [pin2, pin3, pin4, pin5, pin7, pin8],
+    images: [pin2, pin3, pin4, pin5],
     content: "Celebrating achievement and marking a proud milestone in our academic journey."
   },
   {
     id: 5,
-    title: "Testing with Classmates",
+    title: "OJT Reports",
     author: "Josef Nathan",
     date: "March, 2025",
-    excerpt: "Live testing with a college student",
+    excerpt: "Weekly OJT Reports",
     thumbnail: post5Thumbnail,
-    images: [sig2],
-    content: "ELive testing with a college student - recommendations made simple!"
+    images: [oj2, oj3, oj4],
+    content: "Another week, another report—submitted and shining!"
   },
   {
     id: 6,
