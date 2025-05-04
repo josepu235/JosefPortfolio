@@ -2,7 +2,7 @@
 import post1Thumbnail from '../assets/blog/blog1/bet1.jpg';
 import post2Thumbnail from '../assets/blog/blog2/me1.jpg';
 import post3Thumbnail from '../assets/blog/blog3/tes1.jpg';
-import post4Thumbnail from '../assets/blog/blog4/him1.jpg';
+import post4Thumbnail from '../assets/blog/blog4/pin6thumb.jpg';
 import post5Thumbnail from '../assets/blog/blog5/sig1.jpg';
 import post6Thumbnail from '../assets/blog/blog6/cap2thumb.jpg';
 import post7Thumbnail from '../assets/blog/blog7/pin1.jpg';
@@ -17,9 +17,12 @@ import tes4 from '../assets/blog/blog3/tes4.jpg';
 import tes5 from '../assets/blog/blog3/tes5.jpg';
 import tes6 from '../assets/blog/blog3/tes6.jpg';
 
-import him2 from '../assets/blog/blog4/him2.jpg';
-import him3 from '../assets/blog/blog4/him3.jpg';
-import him4 from '../assets/blog/blog4/him4.jpg';
+import pin2 from '../assets/blog/blog4/pin2.jpg';
+import pin3 from '../assets/blog/blog4/pin3.jpg';
+import pin4 from '../assets/blog/blog4/pin4.jpg';
+import pin5 from '../assets/blog/blog4/pin5.jpg';
+import pin7 from '../assets/blog/blog4/pin7.jpg';
+import pin8 from '../assets/blog/blog4/pin8.jpg';
 
 import sig2 from '../assets/blog/blog5/sig2.jpg';
 
@@ -67,13 +70,13 @@ export const blogPosts = [
   },
   {
     id: 4,
-    title: "Testing with incoming freshman",
+    title: "Pinning Ceremony",
     author: "Josef Nathan",
     date: "March, 2025",
-    excerpt: "Helping Freshmen find their path",
+    excerpt: "Pinning is Winning",
     thumbnail: post4Thumbnail,
-    images: [him2, him3, him4],
-    content: "Helping Freshmen find their path - system testing in progress"
+    images: [pin2, pin3, pin4, pin5, pin7, pin8],
+    content: "Celebrating achievement and marking a proud milestone in our academic journey."
   },
   {
     id: 5,
