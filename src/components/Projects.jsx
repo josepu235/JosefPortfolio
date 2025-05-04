@@ -3,6 +3,7 @@ import './Projects.css';
 import pokemon from '../assets/blog/Pokemon.jpg';
 import pin6 from '../assets/blog/todo.jpg';
 import val1 from '../assets/blog/port.png';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
   const projects = [
@@ -10,19 +11,25 @@ const Projects = () => {
       id: 1,
       title: "Pokemon Battle",
       image: pokemon,
-      link: "https://github.com/josepu235/PokemonBattle.git"
+      description: "A Pokemon-style battle game built with React and Json featuring combat mechanics.",
+      codeLink: "https://github.com/josepu235/PokemonBattle.git",
+      liveLink: "https://pokemon-battle-demo.netlify.app"
     },
     {
       id: 2,
       title: "To-do List",
       image: pin6,
-      link: "https://todo-yosef.netlify.app/"
+      description: "A To-Do app with local storage, and sleek design",
+      codeLink: "https://github.com/josepu235/ToDo-List.git",
+      liveLink: "https://todo-yosef.netlify.app/"
     },
     {
       id: 3,
       title: "My First Portfolio",
       image: val1,
-      link: "https://josepu235.github.io/josepue.github.io/"
+      description: "Initial portfolio design showcasing my early work with responsive layouts.",
+      codeLink: "https://github.com/josepu235/josepue.github.io",
+      liveLink: "https://josepu235.github.io/josepue.github.io/"
     }
   ];
 
@@ -46,11 +53,8 @@ const Projects = () => {
         
         <div className="projects-list">
           {projects.map(project => (
-            <motion.a
+            <motion.div
               key={project.id}
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
               whileHover={{ scale: 1.03 }}
               className="project-item"
             >
@@ -59,8 +63,33 @@ const Projects = () => {
                 alt={project.title}
                 className="project-image"
               />
-              <h3 className="project-title">{project.title}</h3>
-            </motion.a>
+              <div className="project-info">
+                <h3 className="project-title">{project.title}</h3>
+                <p className="project-description">{project.description}</p>
+                <div className="project-footer">
+                  <div className="project-icons">
+                    <a 
+                      href={project.codeLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="project-icon"
+                      aria-label="View source code"
+                    >
+                      <FaGithub />
+                    </a>
+                    <a 
+                      href={project.liveLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="project-icon"
+                      aria-label="View live demo"
+                    >
+                      <FaExternalLinkAlt />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
           ))}
         </div>
       </div>
