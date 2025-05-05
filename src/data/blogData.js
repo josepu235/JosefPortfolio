@@ -1,4 +1,4 @@
-
+//thumbnail
 import post1Thumbnail from '../assets/blog/blog1/bet1.jpg';
 import post2Thumbnail from '../assets/blog/blog2/me1.jpg';
 import post3Thumbnail from '../assets/blog/blog3/tes1.jpg';
@@ -50,7 +50,7 @@ export const blogPosts = [
     excerpt: "Knowledge under inspection",
     thumbnail: post1Thumbnail,
     images: [bet2, bet3, bet4, bet5],
-    content: "Knowledge under inspection - grateful for the learning opportunity with Ma'am Monira!"
+    content: "On this day, as my work undergoes careful review, I am reminded of the invaluable contribution Ma'am Monira has made as a beta tester. Her dedication, time, and effort in providing detailed insights and feedback have been essential in refining and improving my project. I’m truly grateful for her involvement, which has played a crucial role in enhancing the overall quality of my work."
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ export const blogPosts = [
     excerpt: "Testing together > stressing alone.",
     thumbnail: post2Thumbnail,
     images: [me2, me3],
-    content: "Testing together > stressing alone. Grateful for the participation of this student for participating!"
+    content: "Testing together is always better than stressing alone, and today, we saw just how powerful collaboration can be. I’m truly grateful for the active participation of this student, whose insights and feedback helped shape the process. Their involvement made the experience not only more efficient but also much more insightful, driving us closer to a refined system."
   },
   {
     id: 3,
@@ -70,7 +70,7 @@ export const blogPosts = [
     excerpt: "System test run",
     thumbnail: post3Thumbnail,
     images: [tes2, tes3, tes4],
-    content: "System test run with incoming freshman -  Making course choice easier"
+    content: "Today, we conducted a system test run with incoming freshmen, marking a key milestone in our development process. This test is a crucial step toward refining the system and making course selection easier and more intuitive for students. By prioritizing a smooth, user-friendly experience, we’re laying the foundation for a more efficient and accessible academic journey."
   },
   {
     id: 4,
@@ -80,7 +80,7 @@ export const blogPosts = [
     excerpt: "Pinning is Winning",
     thumbnail: post4Thumbnail,
     images: [pin2, pin3, pin4, pin5],
-    content: "Celebrating achievement and marking a proud milestone in our academic journey."
+    content: "Today, we gather not only to celebrate individual accomplishments but to acknowledge a significant milestone in our shared academic journey. This moment is a testament to the hard work, commitment, and growth that have shaped our path. As we reflect on how far we’ve come, we honor the efforts that have led us to this proud achievement."
   },
   {
     id: 5,
@@ -90,7 +90,7 @@ export const blogPosts = [
     excerpt: "Weekly OJT Reports",
     thumbnail: post5Thumbnail,
     images: [oj2, oj3, oj4],
-    content: "Another week, another report—submitted and shining!"
+    content: "Another week has passed, and with it comes another report, reflecting the hard work and dedication put into the task. Every detail has been carefully considered, and the report has been thoughtfully written to capture all the necessary insights. Now, it’s officially submitted, shining as a testament to the progress and effort invested."
   },
   {
     id: 6,
@@ -100,7 +100,7 @@ export const blogPosts = [
     excerpt: "System testing with top professors",
     thumbnail: post6Thumbnail,
     images: [cap1, cap3],
-    content: "Refining the system with the best minds on board - Insights Matter"
+    content: "Refining the system with some of the best minds on board has been an exciting part of the process. Their thoughtful feedback and sharp insights continue to shape the project in meaningful ways. After all, every insight matters when you're building something that truly makes a difference."
   },
   {
     id: 7,
@@ -110,6 +110,6 @@ export const blogPosts = [
     excerpt: "Expert Check",
     thumbnail: val1,
     images: [val1],
-    content: "Making every questions count with expert validation"
+    content: "Making every question count has been our priority throughout the development process. With expert validation guiding each step, we ensure that every item serves a clear and valuable purpose. Accuracy and relevance aren't just goals—they're the standard."
   }
 ];
